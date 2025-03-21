@@ -1,21 +1,33 @@
-/*Asterisk is a wildcard character that selects all elements on the page.*/
+/* Asterisk is a wildcard character that selects all elements on the page. */
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-/*Header*/
+/* General stylkes */
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /* Generic project styles*/
+    color: #3a3a3a;
+}
+
+/* Header */
 header {
-  background-color: lightcoral;
-}
-/*Main Content*/
-main {
-  background-color: lightblue;
+    background-color: lightcoral;
 }
 
-/* Footer*/
+/* Main Content */
+main {
+    background-color: lightblue;
+}
+
+/* Footer */
 
 footer {
-  background-color: orange;
+    background-color: orange;
+    /* Make main element take up any surplus space to push footer down*/
+    flex: 1 0 auto;
 }
