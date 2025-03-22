@@ -1,4 +1,6 @@
-/* Asterisk is a wildcard character that selects all elements on the page. */
+/* Google fonts import */
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -22,6 +24,7 @@ header {
 /* Main Content */
 main {
     background-color: lightblue;
+    flex: 1 0 auto;
 }
 
 /* Footer */
@@ -29,5 +32,5 @@ main {
 footer {
     background-color: orange;
     /* Make main element take up any surplus space to push footer down*/
-    flex: 1 0 auto;
 }
+
